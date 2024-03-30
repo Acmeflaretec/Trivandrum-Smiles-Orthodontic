@@ -260,6 +260,16 @@ body {
     text-align: center;
 }
 
+.service-item1 {
+    transition: .5s;
+    background-color: yellow;
+    color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
 .service-item:hover {
     margin-top: -10px;
     box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
@@ -407,6 +417,40 @@ body {
     .testimonial-carousel::after {
         width: 200px;
     }
+    .nav-img{
+        width: 80%;
+         height: 80%;
+          margin-right: 10px;
+    }
+    .img-div{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+
+    
+}
+@media (max-width: 768px) {
+
+    .navbar .navbar-brand,
+    .navbar a.btn {
+        height: 150px;
+        
+    }
+    .nav-img{
+        width: 30%;
+        /* height: 20px; */
+    }
+    .img-div{
+        /* height: 100%; */
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    
+    
 }
 
 @media (min-width: 992px) {
@@ -582,6 +626,7 @@ body {
 .card-title {
     color: yellow;
 }
-.color-yellow{
+
+.color-yellow {
     color: yellow;
 }
