@@ -26,8 +26,10 @@
 }
 
 body {
-    background-color: yellow;
+    background-color: white;
 }
+
+
 
 
 /*** Spinner ***/
@@ -106,7 +108,10 @@ body {
 .navbar .navbar-nav .nav-link.active {
     color: var(--primary);
 }
-
+.header-section{
+    background-color: #085dad;
+    background-image: url(//www.freshsmile.in/wp-content/themes/freshsmile-theme/assets/images/patterns/black-linen.png);
+}
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link {
         margin-right: 0;
@@ -195,7 +200,7 @@ body {
 
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
-    background: yellow;
+    background: #085dad;
     border-color: var(--light);
 }
 
@@ -234,12 +239,12 @@ body {
 }
 
 .header-carousel .owl-dot.active {
-    background: yellow;
+    background: #085dad;
     border-color: black;
 }
 
 .page-header {
-    background: url('/img/banner3.png') top center no-repeat;
+    background: url('/img/New folder/banner.jpg') top center no-repeat;
     background-size: cover;
     text-shadow: 0 0 30px rgba(0, 0, 0, .1);
 }
@@ -252,7 +257,9 @@ body {
 /*** Service ***/
 .service-item {
     transition: .5s;
-    background-color: black;
+    /* background-color: black; */
+    background-color: #085dad;
+    background-image: url(//www.freshsmile.in/wp-content/themes/freshsmile-theme/assets/images/patterns/black-linen.png);
     color: #fff;
     padding: 15px;
     border-radius: 8px;
@@ -262,7 +269,9 @@ body {
 
 .service-item1 {
     transition: .5s;
-    background-color: yellow;
+    /* background-color: yellow; */
+    background-color: #085dad;
+    background-image: url(//www.freshsmile.in/wp-content/themes/freshsmile-theme/assets/images/patterns/black-linen.png);
     color: #fff;
     padding: 15px;
     border-radius: 8px;
@@ -396,7 +405,7 @@ body {
     left: 0;
     height: 100%;
     width: 0;
-    background: linear-gradient(to right, rgb(66, 63, 63) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     z-index: 1;
 }
 
@@ -407,7 +416,7 @@ body {
     right: 0;
     height: 100%;
     width: 0;
-    background: linear-gradient(to left, rgba(66, 63, 63) 0%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to left, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
     z-index: 1;
 }
 
@@ -462,13 +471,15 @@ body {
 }
 
 .testimonial-carousel .owl-item .testimonial-text {
-    background: black;
+    background: var(--light);
+    
     transform: scale(.8);
     transition: .5s;
 }
-
 .testimonial-carousel .owl-item.center .testimonial-text {
-    background: black;
+    /* background: var(--primary); */
+    background-color: #085dad;
+    background-image: url(//www.freshsmile.in/wp-content/themes/freshsmile-theme/assets/images/patterns/black-linen.png);
     transform: scale(1);
 }
 
@@ -483,7 +494,7 @@ body {
 
 
 .testimonial-carousel .owl-item.center .testimonial-item img {
-    background: black !important;
+    background: #085dad !important;
 }
 
 .testimonial-carousel .owl-nav {
@@ -609,7 +620,7 @@ body {
 }
 
 .headers {
-    background-color: black;
+    background-color: #085dad;
     color: white;
 }
 
@@ -619,14 +630,24 @@ body {
 }
 
 .card-body {
-    background-color: black;
+    background-color: #085dad;
+    background-image: url(//www.freshsmile.in/wp-content/themes/freshsmile-theme/assets/images/patterns/black-linen.png);
     border-top: 1px solid white;
 }
 
 .card-title {
-    color: yellow;
+    color: white;
 }
 
 .color-yellow {
     color: yellow;
+}
+.time{
+    background: url(//www.freshsmile.in/wp-content/themes/freshsmile-theme/assets/images/backgrounds/testimonials-bg.jpg) center center fixed;
+    background-size: cover;
+   
+}
+.footerbg{
+    background-color: #085dad;
+    background-image: url(//www.freshsmile.in/wp-content/themes/freshsmile-theme/assets/images/patterns/black-linen.png);
 }
