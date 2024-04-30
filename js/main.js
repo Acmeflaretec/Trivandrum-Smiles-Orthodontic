@@ -73,13 +73,15 @@
 
     // Testimonials carousel
     $(".testimonial-carousel").owlCarousel({
-        autoplay: false,
+        autoplay: true, // Set autoplay to true
+        autoplayTimeout: 5000, // Set autoplay interval in milliseconds (5 seconds in this example)
+        autoplayHoverPause: true, // Pause autoplay on hover
         smartSpeed: 1000,
         center: true,
         dots: false,
         loop: true,
-        nav : true,
-        navText : [
+        nav: true,
+        navText: [
             '<i class="bi bi-arrow-left"></i>',
             '<i class="bi bi-arrow-right"></i>'
         ],
@@ -95,4 +97,6 @@
 
     
 })(jQuery);
+
+
 
